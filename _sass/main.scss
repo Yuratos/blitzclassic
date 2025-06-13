@@ -3450,7 +3450,11 @@ table {
     text-align: center;
 }
 
+
 @media screen and (min-width: 100px) {
+    body{
+        min-width: 100dvw;
+    }
     .r-content {
       //border: 1px solid green;
     }
@@ -3458,6 +3462,8 @@ table {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px ;
     }
     .l-content {
     // border: 1px solid red;
@@ -3469,6 +3475,22 @@ table {
         padding: 40px 0;
         background-image: url("/web/20181109111020im_/http://static-wbp-ru.gcdn.co/static/1.12/portal/css/scss/slide/img/info-slide-tab.jpg");
         background-position: 50% 0;
+    }
+    .footer_stores {
+        float: none;
+        margin-left: 0px;
+        margin-bottom: 25px;
+        display: block;
+        text-align: center;
+    }
+    .footer-social{
+        float: none;
+        text-align: center;
+    }
+    p .footer-title{
+        margin: 0 0 12px 0 !important;
+        text-align: center !important;
+        
     }
   }
 
